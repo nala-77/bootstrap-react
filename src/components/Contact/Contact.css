@@ -1,0 +1,16 @@
+.contact .col-xl-6 {
+  width: 48%;
+}
+.NA-border {
+    border: 2px dotted var(--main-color);
+}
+@media only screen and (max-width: 993px) and (min-width: 576px) {
+    .contact .col-xl-6 {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 500px) {
+   .contact .NA-fs {
+    font-size: 12px !important;
+   }
+}

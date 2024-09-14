@@ -1,0 +1,30 @@
+.NA-img-wdth {
+  width: 224px;
+}
+.NA-height {
+  height: 224px;
+}
+/* edit on bootstrap classes */
+.nav-pills .nav-link {
+  background-color: transparent !important;
+  border-right: 2px solid #ececec;
+  transition: 0.4s;
+}
+
+.nav-pills .nav-link.active {
+  border-right: 2px solid var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+
+@media only screen and (min-width: 770px) {
+  .nav-pills {
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .nav-pills .nav-link,
+  .nav-pills .nav-link.active {
+    border-right: none !important;
+  }
+}

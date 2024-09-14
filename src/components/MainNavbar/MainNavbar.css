@@ -1,0 +1,23 @@
+.logo-parent {
+  width: 150px;
+}
+nav a:hover {
+  color: var(--main-color) !important;
+}
+.mainNavbar {
+  z-index: 999;
+}
+@media only screen and (max-width: 500px) {
+  .nav-btn {
+    font-size: 12px !important;
+    width: fit-content;
+  }
+  .logo-parent {
+    width: 115px !important;
+  }
+}
+@media only screen and (max-width: 1199.5px) {
+  .for-flex-reverse {
+    flex-direction: row-reverse;
+  }
+}

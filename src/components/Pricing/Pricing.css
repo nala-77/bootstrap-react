@@ -1,0 +1,18 @@
+.price-hover:hover .price-title {
+  background-color: var(--main-color) !important;
+  color: white;
+  transition: 0.4s;
+}
+.after::after {
+  position: absolute;
+  content: "Advanced";
+  background-color: var(--main-color);
+  color: white;
+  text-transform: capitalize;
+  transform: rotate(45deg);
+  font-size: 13px;
+  padding: 2px 0;
+  right: -4em;
+  top: 1.5em;
+  width: 168px;
+}

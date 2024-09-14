@@ -1,0 +1,19 @@
+.img-height {
+    height: 450px;
+}
+.NA-list-wdth {
+    width: 550px;
+}
+.for-vedio {
+    width: 60px;
+    height: 60px;
+    outline: 14px solid var(--main-color-opacity);
+}
+@media only screen and (max-width: 576px) {
+    .xsmall-mb {
+        margin-bottom: 30px !important;
+    }
+    .xsmall-h2 {
+        font-size: 18px !important;
+    }
+}

@@ -1,0 +1,20 @@
+.NA-edit .title {
+  justify-content: start !important;
+  align-items: flex-start !important;
+  text-align: left;
+}
+.NA-edit .title h3::after {
+  left: 4%;
+}
+.NA-edit .title p {
+  text-align: left !important;
+  color: black;
+  margin-bottom: 0;
+}
+.NA-laboratory-fs {
+  font-size: 14px;
+}
+.edit {
+  width: 100px;
+  height: 60px;
+}

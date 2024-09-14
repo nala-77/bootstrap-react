@@ -1,0 +1,11 @@
+.title h3::after {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 2px;
+    bottom: 3px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var(--main-color);
+    display: block;
+}

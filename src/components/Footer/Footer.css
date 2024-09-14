@@ -1,0 +1,40 @@
+.NA-gap {
+  gap: 10% !important;
+}
+.icon-parent {
+  width: 30px !important;
+  height: 30px;
+}
+.icon-parent:hover {
+  background-color: var(--main-color);
+}
+.icon-parent:hover a .icon {
+  color: white;
+}
+.footer ul li a,
+.icon-parent {
+  transition: 0.4s;
+}
+.footer ul li:hover a {
+  color: var(--main-color) !important;
+}
+/* editing on bootstrap class */
+.container,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  max-width: 100% !important;
+}
+@media only screen and (max-width: 770px) {
+  .icon-parent {
+    width: 25px !important;
+    height: 25px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 766px) {
+  .NA-w {
+    width: fit-content !important;
+  }
+}

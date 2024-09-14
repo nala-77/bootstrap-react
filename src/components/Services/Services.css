@@ -1,0 +1,10 @@
+.edit-circle {
+    width: 60px; height: 60px;
+}
+.title-edit > .title h3 {
+    text-align: center;
+    font-size: 19px !important;
+}
+.title-edit .title p {
+    font-size: 14px !important;
+}

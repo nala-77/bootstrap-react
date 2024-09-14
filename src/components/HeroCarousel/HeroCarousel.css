@@ -1,0 +1,29 @@
+.carousel-hero {
+  height: calc(100vh - 120px);
+}
+.NA-bottom-border {
+    bottom: 20% !important;
+    border-top: 7px solid var(--main-color);
+}
+.carousel-hero .carousel-indicators button {
+    border: 0;
+    border-radius: 30px;
+    width: 10px;
+    height: 10px;
+    color: white;
+}
+.carousel-hero button.active {
+    background-color: var(--main-color);
+}
+/* edit on bootstrap class */
+.carousel-inner {
+  height: 100%;
+}
+@media only screen and (max-width: 576px) {
+  .carousel-hero {
+    height: calc(100vh - 60px);
+  }
+  .NA-fs {
+    font-size: 13px;
+  }
+}

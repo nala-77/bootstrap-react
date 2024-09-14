@@ -1,0 +1,7 @@
+.wdth-fullScreen {
+  max-width: 100% !important;
+}
+.link-hover-effect:hover {
+  color: white !important;
+  text-decoration: underline !important;
+}
