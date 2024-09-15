@@ -21,6 +21,7 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 
 // for images
+import logo from './../public/Images/logo.png'
 import img1 from "./../public/Images/hero-carousel/hero-carousel-1.jpg";
 import img2 from "./../public/Images/hero-carousel/hero-carousel-2.jpg";
 import img3 from "./../public/Images/hero-carousel/hero-carousel-3.jpg";
@@ -96,7 +97,7 @@ const miniNavbarData = [
 
 function App() {
   // data for navbarTwo
-  const brand = { name: "medicio", img: "/public/Images/logo.png" };
+  const brand = { name: "medicio", img: logo };
   const links = [
     {
       id: "home",
