@@ -5,7 +5,7 @@ import Title from "../Title/Title";
 
 function Testimonial({ testimonialCard1 }) {
   return (
-    <section id="" className="py-5 pd-x-5">
+    <section className="py-5 pd-x-5">
       <Title
         header="Testimonial"
         desc="Necssitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"
